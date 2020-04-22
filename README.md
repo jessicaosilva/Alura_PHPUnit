@@ -20,3 +20,28 @@ Padrões de testes:
 - Arrange-Act-Assert
 - Given-When-Then
 
+## Aula 2
+
+Criada pasta 'tests' na raiz, onde ficarão as classes de testes.
+
+Para instalar o PHPUnit, executar o comando na raiz do projeto:
+
+````
+composer require --dev phpunit/phpunit ^8
+````
+
+Foram criadas 4 funções/testes na Classe de teste "AvaliadorTest.php".
+
+Que buscam o maior ou o menor valor, de lances que estão em ordem crescente e decrescente.
+
+- testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemCrescente
+- testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemDecrescente
+- testAvaliadorDeveEncontrarOMenorValorDeLancesEmOrdemCrescente
+- testAvaliadorDeveEncontrarOMenorValorDeLancesEmOrdemDecrescente
+
+
+Para rodar os testes, executar o comando na raiz do projeto:
+
+````
+vendor\bin\phpunit --colors tests
+````
