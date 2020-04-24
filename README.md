@@ -75,3 +75,5 @@ Dessa forma 4 funções foram excluídas, e os testes mantidos por apenas 2 fun�
 Criação de uma função testAvaliadorDeveBuscar3MaioresValores que recebe 4 lances e retorna os 3 maiores
 
 Criação do arquivo phpunit.xml, que é um arquivo de configuração padrões para execução do teste mais a geração de um arquivo txt de log do último teste.
+
+

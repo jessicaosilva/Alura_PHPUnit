@@ -115,5 +115,4 @@ class AvaliadorTest extends TestCase
             'ordem-aleatoria' => [$leilao]
         ];
     }
-    
 }
