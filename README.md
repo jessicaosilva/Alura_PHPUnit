@@ -45,3 +45,9 @@ Para rodar os testes, executar o comando na raiz do projeto:
 ````
 vendor\bin\phpunit --colors tests
 ````
+
+## Aula 3
+
+Análise das possibilidades de dados para testar todas os casos de testes, encontrando as simililaridades entre eles, que são as classes de equivalência. Dessa forma melhorar a forma de codificar os testes.
+
+Foi criada mais uma função de teste, a testAvaliadorDeveBuscar3MaioresValores, que é computado 4 lances, o avalidor coloca em ordem, e devolve os 3 maiores. O teste avalia se de fato retornou os 3 maiores lances.
