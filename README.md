@@ -88,4 +88,9 @@ Criação de uma função testAvaliadorDeveBuscar3MaioresValores que recebe 4 la
 
 Criação do arquivo phpunit.xml, que é um arquivo de configuração padrões para execução do teste mais a geração de um arquivo txt de log do último teste.
 
+Agora para rodar os testes, basta executar o comando na raiz do projeto:
+
+````
+phpunit
+````
 
