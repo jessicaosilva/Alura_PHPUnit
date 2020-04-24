@@ -1,5 +1,17 @@
 # Teste com PHPUnit
 
+Para usar o composer, na raiz da pasta do projeto, executar o comando:
+
+````
+composer dump
+````
+
+Para usar o PHPUnit na versão 8, na raiz da pasta do projeto, executar o comando:
+
+````
+composer require --dev phpunit/phpunit ^8
+````
+
 Para rodar o teste, na raiz da pasta do projeto, executar o comando:
 
 ````
