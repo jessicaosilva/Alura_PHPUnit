@@ -91,6 +91,20 @@ Criação do arquivo phpunit.xml, que é um arquivo de configuração padrões p
 Agora para rodar os testes, basta executar o comando na raiz do projeto:
 
 ````
-phpunit
+vendor\bin\phpunit
 ````
+
+## Aula 5
+
+Criação de uma nova classe de teste, chamada LeilaoTest.php, na pasta tests\Models.
+Com as seguintes funções de teste:
+
+- testLeilaoDeveReceberLances que testa que um leilão recebe um lance pelo menos.
+- testLeilaoNaoDeveReceberLancesRepetidos que testa que um lance não aceita lances repetidos.
+- testLeilaoNaoDeveAceitarMaisDe5LancesPorUsuario que testa que um leilão não aceita mais de 5 lances por usuário.
+
+
+Refatoração do método recebeLance em Alura\Leilao\Model para garentir que um leilão recebe um lance pelo menos, que um lance não aceita lances repetidos e que um leilão não aceita mais de 5 lances por usuário.
+
+Além da crição dos métodos ehDoUltimoUsuario e quantidadeLancesPorUsuario com base na técnica baby steps guiados pelos testes.
 
