@@ -108,3 +108,23 @@ Refatoração do método recebeLance em Alura\Leilao\Model para garentir que um 
 
 Além da crição dos métodos ehDoUltimoUsuario e quantidadeLancesPorUsuario com base na técnica baby steps guiados pelos testes.
 
+## Aula 6
+
+Aula dedicada para aplicar exceptions quando os testes falharem. Trazendo mensagens de erro.
+
+
+Dois novos testes para AvaliadorTest.php
+
+- testLeilaoVazioNaoPodeSerAvaliado que testa que um leilão sem lances não deve ser avaliado.
+- testLeilaoFinalizadoNaoPodeserAvaliado que testa se um leilão finalizado não deve ser avaliado.
+
+Refatoração do método avalia em Avaliador.php com exceptions
+
+Em Leilão.php:
+- Refatoração do método recebeLance com exceptions para garantir que um leilão sem lances não seja avaliado.
+- Criação dos métodos para finalizar e checar status finalizado do leilão para garantir que um leilão finalizado não seja avaliado.
+
+
+
+
+
