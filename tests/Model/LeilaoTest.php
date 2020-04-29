@@ -72,9 +72,9 @@ class LeilaoTest extends TestCase
         $leilao->recebeLance(new Lance($joao, 5000));
         $leilao->recebeLance(new Lance($maria, 5500));
 
-        $leilao->recebeLance(new Lance($joao, 6000));
+        $leilao->recebeLance(new Lance($joao, 5500));
 
-        static::assertCount(10, $leilao->getLances());
+        static::assertCount(9, $leilao->getLances());
         static::assertEquals(5500, $leilao->getLances()[array_key_last($leilao->getLances())]->getValor());
     }
 }
